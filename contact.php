@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>AHS Pharmaceuticals Pvt Ltd</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+		
+		<style>
+		.navbar-brand img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+	
+}
+
+
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #f8f9fa; /* optional background */
+    border-radius: 8px; /* optional */
+}
+
+.feature-item .feature-content {
+    flex-grow: 1;
+}
+
+
+</style>
+
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <?php include 'header.php'; ?>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+           <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.php" class="navbar-brand p-0">
+                    
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                      
+						<a href="products.php" class="nav-item nav-link">Products</a>
+                        
+                        <a href="contact.php" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <a href="contact.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Schedule A Call</a>
+                </div>
+            </nav>
+
+
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    
+                    <li class="breadcrumb-item active text-primary">Contact</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+      <!-- Contact Start -->
+<div class="container-fluid contact py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style mb-4">
+                <h4 class="sub-title text-white px-3 mb-0">Contact Us</h4>
+            </div>
+            <p class="mb-0 text-black-50">
+                Whether you have questions, need help, or want to know more about our products, we’re here for you. Reach out to us using the details below or by filling out the form.
+            </p>
+        </div>
+        <div class="row g-4 align-items-center">
+            <!-- Contact Form -->
+            <div class="col-lg-5 col-xl-5 contact-form wow fadeInLeft" data-wow-delay="0.1s">
+                <h2 class="display-5 text-white mb-2">Get in Touch</h2>
+                <p class="mb-4 text-white">
+                    Fill out the form below and we’ll respond as soon as possible.
+                </p>
+                <form>
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control bg-transparent border border-white" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control bg-transparent border border-white" id="email" placeholder="Your Email">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="tel" class="form-control bg-transparent border border-white" id="phone" placeholder="Phone">
+                                <label for="phone">Your Phone</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control bg-transparent border border-white" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control bg-transparent border border-white" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-light text-primary w-100 py-3">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-2 col-xl-2 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="bg-transparent rounded">
+                    <div class="d-flex flex-column align-items-center text-center mb-4">
+                        <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;">
+                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="text-dark">Address</h4>
+                        <p class="mb-0 text-white">#17, 2nd Floor, 7th Main Road,<br>II Stage, Indiranagar,<br>Bangalore – 560038</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center mb-4">
+                        <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 90px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="text-dark">Phone</h4>
+                        <p class="mb-0 text-white">+91-7503048339</p>
+                    </div>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;">
+                            <i class="fa fa-envelope-open fa-2x text-primary"></i>
+                        </div>
+                        <h4 class="text-dark">Email</h4>
+                        <p class="mb-0 text-white">info@ahspharma.in</p>
+                        <!-- If you want second email, otherwise remove the second line -->
+                        <p class="mb-0 text-white">contact@ahspharma.in</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map & Social -->
+            <div class="col-lg-5 col-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-lg-square btn-light rounded-circle mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg-square btn-light rounded-circle mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg-square btn-light rounded-circle mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg-square btn-light rounded-circle mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="rounded h-100">
+                    <iframe class="rounded w-100" 
+                        style="height: 500px;" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31180.123456789!2d77.633600!3d12.971600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d93b1efc3d%3A0x123456789abcdef!2sII%20Stage%2C%20Indiranagar%2C%20Bengaluru%2C%20Karnataka%20560038%2C%20India!5e0!3m2!1sen!2sin!4v1694266000000!5m2!1sen!2sin"
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+
+        <!-- Footer Start -->
+    <?php include 'footer.php'; ?>
+        <!-- Footer End -->
+        
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        
+    </body>
+
+</html>
