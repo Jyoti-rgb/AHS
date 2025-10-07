@@ -132,15 +132,3 @@ fetch("footer.html")
   .then((data) => {
     document.getElementById("footer").innerHTML = data;
   });
-
-// Contact form
-
-// document.getElementById("contactForm").addEventListener("submit", function (e) {
-//   e.preventDefault(); // Prevent default reload
-//   fetch(this.action, {
-//     method: "POST",
-//     body: new FormData(this),
-//   })
-//     .then(() => alert("Message sent successfully!"))
-//     .catch(() => alert("Failed to send message."));
-// });
