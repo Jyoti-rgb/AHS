@@ -54,28 +54,28 @@
   </head>
 
   <body>
-    <div class="container-fluid position-relative p-0">
-      <!-- Spinner Start -->
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
       <div
-        id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
       >
-        <div
-          class="spinner-border text-primary"
-          style="width: 3rem; height: 3rem"
-          role="status"
-        >
-          <span class="sr-only">Loading...</span>
-        </div>
+        <span class="sr-only">Loading...</span>
       </div>
-      <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
-      <!-- Topbar Start -->
-      <div id="header"></div>
-      <!-- Topbar End -->
+    <!-- Topbar Start -->
+    <div id="header"></div>
+    <!-- Topbar End -->
 
-      <!-- Navbar & Hero Start -->
-
+    <!-- Navbar & Hero Start -->
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
       <nav
         class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
       >
@@ -106,7 +106,6 @@
           >
         </div>
       </nav>
-      <!-- Navbar End -->
 
       <!-- Carousel Start -->
       <div class="header-carousel owl-carousel">
@@ -203,6 +202,7 @@
         .clickable-img:hover {
           transform: scale(1.05);
         }
+
         .container {
           max-width: 100%;
           overflow-x: hidden;
@@ -210,7 +210,6 @@
       </style>
 
       <!-- Services Start -->
-
       <div class="container-fluid service py-5">
         <div class="container py-5">
           <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
@@ -486,6 +485,147 @@
         </div>
       </div>
       <!-- About End -->
+
+      <!-- Feature Start --
+<div class="container-fluid feature py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
+            </div>
+            <h1 class="display-3 mb-4">Quality Medicines, Trusted by Healthcare Professionals</h1>
+            <p class="mb-0">
+                At AHS Pharmaceuticals Pvt Ltd, we believe in building trust through uncompromised quality, 
+                innovative solutions, and reliable customer service. With years of expertise, we ensure 
+                that every product we deliver meets international healthcare standards.
+            </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-capsules fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Wide Product Range</h5>
+                            <p class="mb-0">Offering a comprehensive range of pharmaceutical formulations trusted by healthcare providers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-certificate fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">WHO-GMP Certified</h5>
+                            <p class="mb-0">Manufacturing facilities that comply with the highest quality and safety standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-truck fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Strong Distribution</h5>
+                            <p class="mb-0">Ensuring timely supply of medicines through a reliable and efficient network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-users fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Customer-Centric Approach</h5>
+                            <p class="mb-0">Dedicated to building long-term relationships by supporting our partners and clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-flask fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Innovative R&D</h5>
+                            <p class="mb-0">Constantly developing new and effective formulations to meet healthcare needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-handshake fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Trusted Partnerships</h5>
+                            <p class="mb-0">Building long-lasting business relationships with healthcare professionals and distributors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-medkit fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Affordable Healthcare</h5>
+                            <p class="mb-0">Committed to making quality medicines accessible and affordable for everyone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-user-md fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Expert Team</h5>
+                            <p class="mb-0">A highly skilled team ensuring compliance, innovation, and customer satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<!-- Feature End -->
 
       <!-- Feature Start -->
       <div class="container-fluid feature py-5">
@@ -792,7 +932,72 @@
           </div>
         </div>
       </div>
+
       <!-- Get In Touch End -->
+
+      <!-- Team Start --
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">Our Experts</h4>
+            </div>
+            <h1 class="display-3 mb-4">Meet Our Dedicated Team</h1>
+            <p class="mb-0">Our team is made up of passionate professionals who bring expertise, commitment, and innovation to deliver the best solutions for our clients. We work together to ensure excellence in every project.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
+                        
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Neha Sharma</h5>
+                        <p class="mb-0">Managing Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
+                        
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Rahul Verma</h5>
+                        <p class="mb-0">Head of Operations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
+                        
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Sneha Mehta</h5>
+                        <p class="mb-0">Development Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
+                        
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Arjun Kapoor</h5>
+                        <p class="mb-0">Client Relations Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
 
       <!-- Testimonial Start -->
       <div
@@ -1076,6 +1281,70 @@
       </div>
     </div>
     <!-- FAQ End -->
+
+    <!-- Blog Start --
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">Our Blog</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Excellent Facility and High Quality Therapy</h1>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">Remove back Pain While Working on o physio</a>
+                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">Benefits of a weekly physiotherapy session</a>
+                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item rounded">
+                            <div class="blog-img">
+                                <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                            <div class="blog-centent p-4">
+                                <div class="d-flex justify-content-between mb-4">
+                                    <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 01 Jan 2045</p>
+                                    <a href="#" class="text-muted"><span class="fa fa-comments text-primary"></span> 3 Comments</a>
+                                </div>
+                                <a href="#" class="h4">Regular excercise can slow ageing process</a>
+                                <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic consequatur beatae architecto,</p>
+                                <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
 
     <!-- Footer Start -->
     <div id="footer"></div>
