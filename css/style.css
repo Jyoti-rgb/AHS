@@ -184,6 +184,9 @@
   .topbar {
     display: none;
   }
+  .navbar-brand {
+    margin-left: -35px;
+  }
 }
 /*** Topbar End ***/
 
@@ -209,9 +212,11 @@
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--bs-primary) !important;
 }
-
+.logo {
+  width: 150%;
+}
 .navbar-light .navbar-brand img {
-  max-height: 50px;
+  max-height: 80px;
   transition: 0.5s;
 }
 
